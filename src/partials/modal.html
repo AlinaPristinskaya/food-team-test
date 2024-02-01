@@ -1,0 +1,34 @@
+<div class="backdrop " data-modal><!-- додаємо  модальне вis-openікно is-open >-->
+    <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+            <svg class="modal-close-icon" width="11" height="11">
+                <use href="./img/icons.svg#icon-close-btn"></use>
+            </svg>
+        </button>
+        <p class="modal-title">Order Form</p>
+        <form class="modal-form">
+            <div class="modal-field">
+                <label class="modal-label" for="user-name">Name</label>
+                <input class="modal-input" type="text" name="user-name" id="user-name" placeholder="Your name" required
+                    pattern="[A-Za-z\s]{2,}">
+            </div>
+            <div class="modal-field">
+                <label class="modal-label" for="user-tel">Phone number</label>
+                <input class="modal-input" type="tel" name="user-tel" required id="user-tel"
+                    placeholder="+38(0__)_______" pattern="\+[0-9]{12}">
+            </div>
+            <div class="modal-field">
+                <label class="modal-label" for="user-email">E-mail</label>
+                <input class="modal-input" type="email" name="user-email" id="user-email-modal"
+                    placeholder="example@gmail.com" required
+                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"><!--span-->
+                <span class="validity">
+                    <svg class="eror" width="11" height="11">
+                        <use href="./img/icons.svg#icon-Frame"></use>
+                    </svg>Not a valid email address (example@email.com)
+                </span>
+            </div>
+            <button type="submit" class="modal-send-btn">Send</button>
+        </form>
+    </div>
+</div>
