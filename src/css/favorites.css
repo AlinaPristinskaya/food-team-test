@@ -15,7 +15,6 @@
   font-weight: 700;
   line-height: normal;
   font-style: normal;
-  /* width: 656px; */
   margin: 0 auto 20px;
   max-width: 280;
 }
@@ -80,7 +79,7 @@
   }
 
   .container-favorites {
-    max-width: 704px;
+    max-width: 740px;
   }
   .favorites-title {
     font-size: 42px;
@@ -100,6 +99,7 @@
     border-radius: 168px;
   }
 }
+/**------------------------------------------------------  */
 @media only screen and (min-width: 1280px) {
   .favorites {
     padding: 100px 16px;
