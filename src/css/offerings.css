@@ -1,0 +1,243 @@
+.offering {
+  padding-top: 45px;
+  padding-bottom: 66px;
+}
+.offering-flex {
+  position: relative;
+}
+
+.container-apple-one {
+  width: 280px;
+  height: 280px;
+  border-radius: 280px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  padding-top: 28px;
+}
+.container-apple {
+  width: 256px;
+  height: 256px;
+  margin: auto;
+  position: relative;
+  background-color: #fefefe;
+}
+.apple-shadow {
+  width: 128.291px;
+  height: 44.288px;
+  flex-shrink: 0;
+  background-image: radial-gradient(
+    50% 50% at 50% 50%,
+    #2f583f 0%,
+    rgba(105, 105, 105, 0) 100%
+  );
+  filter: blur(6.61818265914917px);
+  position: absolute;
+  bottom: 26px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.img-apple {
+  background-size: cover;
+  position: absolute;
+  bottom: 42px;
+  z-index: 1;
+}
+.offering-special {
+  margin-top: 60px;
+}
+.offering-title {
+  width: 280px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: normal;
+}
+.offering-text {
+  margin-top: 28px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+}
+.offering-item {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  padding: 28px 0;
+}
+.offering-item-list {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 50px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offering-icon {
+  fill: #7eb101;
+}
+.offerinf-title-special {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.offering-text-two {
+  font-size: 14px;
+  line-height: 1.43;
+  font-weight: 400;
+}
+.btn {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.offering-btn {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  display: inline-flex;
+  padding: 10px 22px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: 2px solid #7eb101;
+  background-color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.offering-btn:hover,
+.offering-btn:focus {
+  background-color: #bbf330;
+  border: none;
+}
+.offering-btn-two {
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 85px;
+  height: 34px;
+  padding: 6.833px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.417px;
+  flex-shrink: 0;
+  border: none;
+  background-color: inherit;
+}
+@media only screen and (min-width: 768px) {
+  .offering {
+    padding-top: 42px;
+    padding-bottom: 94px;
+  }
+  .container-apple-one {
+    width: 357px;
+    height: 357px;
+    border-radius: 357px;
+    padding-top: 36px;
+  }
+  .container-apple {
+    width: 326px;
+    height: 326px;
+  }
+  .apple-shadow {
+    width: 163.571px;
+    height: 56.471px;
+    filter: blur(8.43818187713623px);
+    bottom: 32px;
+  }
+  .img-apple {
+    bottom: 52px;
+  }
+  .offering-title {
+    width: 526px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .offering-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 20px;
+    width: 500px;
+  }
+  .offering-item {
+    gap: 80px;
+    flex-direction: row;
+    padding-top: 33px;
+    padding-bottom: 40px;
+  }
+  .offering-item-list {
+    margin-bottom: 16px;
+  }
+  .offering-text-two {
+    width: 288px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .offering {
+    background-color: #ffe550;
+    padding-top: 113px;
+    padding-bottom: 124px;
+  }
+  .offering-flex {
+    display: flex;
+  }
+  .container-apple-one {
+    width: 550px;
+    height: 550px;
+    border-radius: 550px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    padding-top: 0;
+  }
+  .container-apple {
+    width: 502px;
+    height: 502px;
+    border-radius: 502px;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+  }
+  .apple-shadow {
+    width: 252px;
+    height: 87px;
+    filter: blur(13px);
+    top: 364px;
+    right: 131px;
+  }
+  .img-apple {
+    left: 60px;
+    bottom: 78px;
+  }
+  .offering-special {
+    padding-left: 90px;
+    height: 413px;
+  }
+  .offering-title {
+    line-height: 1.2;
+  }
+  .offering-item {
+    gap: 67px;
+    padding-top: 40px;
+    padding-bottom: 32px;
+  }
+  .offering-item-list {
+    background-color: #fefefe;
+  }
+  .offerinf-title-special {
+    line-height: 1.4;
+  }
+  .offering-text-two {
+    line-height: 1.5;
+    width: 253px;
+  }
+  .offering-btn {
+    margin-bottom: 32px;
+  }
+  .offering-btn-two {
+    display: none;
+  }
+}
