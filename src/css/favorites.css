@@ -1,0 +1,127 @@
+.favorites {
+  background: #fefefe;
+  padding: 60px 20px;
+}
+
+.container-favorites {
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.favorites-title {
+  color: #2c2c2c;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: normal;
+  font-style: normal;
+  margin: 0 auto 20px;
+  max-width: 280;
+}
+
+.favorites-text {
+  color: #2c2c2c;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto 60px;
+  max-width: 280px;
+}
+
+.favorites-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.list-item {
+}
+
+.list-item:hover .favorites-image {
+  border: 16px solid #bbf330;
+}
+
+.favorites-image {
+  padding: 21px 17px;
+  background: #fefefe;
+  transition: border 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 223px;
+  height: 223px;
+  flex-shrink: 0;
+  border-radius: 139.658px;
+  border: 11px solid var(--Yellow-main, #ffe550);
+}
+
+.favorites-image-midle {
+  border-radius: 197px;
+}
+/**----------------------------------------------invisible item mob */
+@media only screen and (max-width: 719px) {
+  .list-item-invisible {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
+/**--------------------------------------------------------Tablet */
+@media only screen and (min-width: 720px) {
+  .favorites {
+    padding: 100px 32px;
+  }
+
+  .container-favorites {
+    max-width: 740px;
+  }
+  .favorites-title {
+    font-size: 42px;
+  }
+  .favorites-list {
+    gap: 32px;
+  }
+  .list-item {
+    width: calc((100 - 32px) / 2);
+  }
+  .favorites-image {
+    padding: 21px 20px;
+    width: 268px;
+    height: 268px;
+    flex-shrink: 0;
+    border: 14px solid #ffe550;
+    border-radius: 168px;
+  }
+}
+/**------------------------------------------------------  */
+@media only screen and (min-width: 1280px) {
+  .favorites {
+    padding: 100px 16px;
+  }
+  .container-favorites {
+    max-width: 1280px;
+  }
+  .favorites-title {
+    max-width: 656px;
+  }
+  .favorites-list {
+    width: 100%;
+  }
+  .list-item {
+    width: calc((100 - 64px) / 3);
+  }
+  .favorites-image {
+    padding: 25 px 24px;
+    width: 394px;
+    height: 395px;
+    flex-shrink: 0;
+    border: 16px solid #ffe550;
+    border-radius: 197px;
+  }
+}
