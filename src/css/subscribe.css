@@ -1,0 +1,145 @@
+.section-subscribe {
+    margin-top: 17px;
+}
+
+.all-container-section {
+    display: flex;
+}
+
+.title-subscribe {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #2c2c2c;
+    min-width: 280px;
+    padding-top: 18px;
+
+}
+
+.paragraph-subscribe {
+    font-family: "Roboto", sans-serif;
+    min-width: 280px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #2c2c2c;
+    padding-top: 18px;
+}
+
+.container-form {
+    display: flex;
+    text-align: right;
+    margin: 24px auto;
+}
+
+.form-input:placeholder-shown {
+    border-color: #ffe550;
+}
+
+input {
+    font-family: inherit;
+}
+
+.form-input {
+    min-width: 279px;
+    height: 42px;
+    padding: 12px 57px 12px 12px;
+    border-radius: 30px;
+    border: 0.854px solid #7eb101;
+    background: #fefefe;
+    outline: none;
+}
+
+.button-sub {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c2c2c;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 11px 22px;
+    margin-top: 18px;
+    border: none;
+    border-radius: 30px;
+    background: #bbf330;
+}
+
+.button-sub:hover,
+.button-sub:focus {
+    background: #ffe450;
+}
+
+.form-input {}
+
+
+
+/* -------Tablet 768px-------- */
+
+
+@media screen and (min-width: 768px) {
+
+    .section-subscribe {}
+
+    .all-container-section {}
+
+    .container-content-subscribe {}
+
+    .container-subscribe-image {}
+
+    .subscribe-image {}
+
+    .container-text {}
+
+    .title-subscribe {
+        font-size: 42px;
+    }
+
+    .paragraph-subscribe {
+        width: 520px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .form-input {
+        min-width: 394px;
+    }
+
+    .container-form {}
+
+    .button-sub {}
+
+
+
+}
+
+/* ---end tablet-- */
+
+
+
+
+/* ---------Desktop 1158px-------- */
+
+@media screen and (min-width: 1158px) {
+
+    .section-subscribe {}
+
+    .all-container-section {}
+
+    .container-content-subscribe {}
+
+    .container-subscribe-image {}
+
+    .subscribe-image {}
+
+    .container-text {}
+
+    .title-subscribe {}
+
+    .paragraph-subscribe {}
+
+}
+
+/* ---end 1158--- */
