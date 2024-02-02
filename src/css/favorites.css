@@ -36,8 +36,8 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.list-item {
-}
+/* .list-item {
+} */
 
 .list-item:hover .favorites-image {
   border: 16px solid #bbf330;
