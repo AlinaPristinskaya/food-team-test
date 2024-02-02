@@ -18,7 +18,7 @@
     
 
     <script type="module" crossorigin src="/food-team-test/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/food-team-test/assets/index-c0c9d4b7.css">
+    <link rel="stylesheet" href="/food-team-test/assets/index-0eff899f.css">
   </head>
   <body>
     <header class="header">
@@ -33,15 +33,15 @@
                 <li><a class="nav-link" href="">Contact</a></li>
             </ul>
         </nav>
-        <button class="nav-button btn" type="button">Order Now</button>
-        <button class="open-menu-btn" type="button" data-modal-open><svg width="24" height="16" class="mob-icon-menu">
+        <button class="nav-button" type="button" data-modal-open>Order Now</button>
+        <button class="open-menu-btn" type="button"><svg width="24" height="16" class="mob-icon-menu" data-mobmenu-open>
                 <use href="/food-team-test/assets/icons-aa873972.svg#open-menu-btn"></use>
             </svg>
         </button>
     </div>
-    <div class="mob-menu"><!-- is-open-->
+    <div class="mob-menu is-hidden" data-mobmenu><!-- is-open-->
         <div class="mob-menu-wrap">
-            <button class="close-menu-btn" type="button">
+            <button class="close-menu-btn" type="button" data-mobmenu-close>
                 <svg width="11" height="11" class="mob-icon-close">
                     <use href="/food-team-test/assets/icons-aa873972.svg#icon-close-mob-btn">
                     </use>
@@ -61,7 +61,7 @@
 </header>
 
     <main>
-      <section class="intro">
+      <section class="intro" data-hero>
   <div class="container hero-container">
     <h1 class="main-header">Enjoy Your Favorite Food From Anywhere</h1>
     <div class="hero-text">
@@ -72,7 +72,7 @@
           enjoy a hassle-free and delicious meal from the comfort of your own
           home.
         </p>
-        <button type="button" class="button-order-green">Order Now</button>
+        <button type="button" class="button-order-green" data-hero-open>Order Now</button>
       </div>
       <div class="hero-img">
         <picture>
@@ -354,7 +354,7 @@
     </main>
 
     
-    <div class="backdrop " data-modal><!-- додаємо  модальне вis-openікно is-open >-->
+    <div class="backdrop is-hidden" data-modal><!-- додаємо  модальне вis-openікно is-open >-->
     <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
             <svg class="modal-close-icon" width="11" height="11">
