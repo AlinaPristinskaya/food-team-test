@@ -3,7 +3,6 @@
   padding-bottom: 66px;
 }
 .offering-flex {
-  position: relative;
 }
 
 .container-apple-one {
@@ -12,12 +11,12 @@
   border-radius: 280px;
   border: 3px solid rgba(255, 255, 255, 0.5);
   padding-top: 28px;
+  position: relative;
 }
 .container-apple {
   width: 256px;
   height: 256px;
   margin: auto;
-  position: relative;
   background-color: #fefefe;
 }
 .apple-shadow {
@@ -31,15 +30,18 @@
   );
   filter: blur(6.61818265914917px);
   position: absolute;
-  bottom: 26px;
+  bottom: 16px;
   left: 50%;
   transform: translateX(-50%);
 }
 .img-apple {
-  background-size: cover;
+  width: 201px;
+  height: 255px;
   position: absolute;
-  bottom: 42px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1;
+  bottom: 28px;
 }
 .offering-special {
   margin-top: 60px;
@@ -149,6 +151,8 @@
     bottom: 32px;
   }
   .img-apple {
+    width: 257px;
+    height: 325px;
     bottom: 52px;
   }
   .offering-title {
@@ -209,7 +213,8 @@
     right: 131px;
   }
   .img-apple {
-    left: 60px;
+    width: 396px;
+    height: 502px;
     bottom: 78px;
   }
   .offering-special {
