@@ -1,31 +1,48 @@
 <!-- subscribe Ruslan-->
 <section class="section-subscribe">
   <div class="container all-container-section">
-    <div class="container-content-subscribe">
-      <div class="container-subscribe-image">
-        <img
-          class="subscribe-image"
-          srcset="../img/subscribe/subscribebanan11582x.jpg 2x"
-          src="../img/subscribe/subscribebanan1158.jpg"
-          alt="banan"
-          width="608"
+    <div class="container-subscribe-image">
+      <picture>
+        <source
+          srcset="
+            ./img/subscribe/banan1158.png   1x,
+            ./img/subscribe/banan11582x.png 2x
+          "
+          media="(min-width: 1280px)"
         />
-      </div>
-      <div class="container-text">
-        <h3 class="title-subscribe">Subscribe To Get Special Offers</h3>
-        <p class="paragraph-subscribe">
-          Order now and receive 10% off your first meal with Enjoy Your Favorite
-          Food From Anywhere.
-        </p>
-      </div>
+        <source
+          srcset="
+            ./img/subscribe/banan768.png   1x,
+            ./img/subscribe/banan7682x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/subscribe/banan320.png   1x,
+            ./img/subscribe/banan3202x.png 2x
+          "
+          media="(min-width: 320px)"
+        />
+        <img src="./img/subscribe/banan11582x" alt="banan" class="img-banan" />
+      </picture>
+    </div>
+    <div class="container-text">
+      <h3 class="title-subscribe">Subscribe To Get Special Offers</h3>
+      <p class="paragraph-subscribe">
+        Order now and receive 10% off your first meal with Enjoy Your Favorite
+        Food From Anywhere.
+      </p>
       <div class="container-form">
-        <form class="form" name="issue_report_form" autocomplete="off">
+        <form class="form" name="email" autocomplete="off">
           <label class="form-label">
             <input
-              type="text"
+              type="email"
               class="form-input"
-              name="topic"
+              name="email"
               placeholder="Enter your email"
+              required=""
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
             />
           </label>
           <button class="button-sub" type="button">Subscribe</button>
